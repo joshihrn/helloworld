@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2951652C-6031-41D7-89ED-97950DA70848}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HtmlContactsToExcelSheet</RootNamespace>
+    <AssemblyName>HtmlContactsToExcelSheet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\..\..\Downloads\EPPlus 4.1\DotNet4\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\..\..\..\Downloads\HtmlAgilityPack.1.4.6\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="SourceHtmlFiles\it1.txt" />
+    <Content Include="SourceHtmlFiles\it10.txt" />
+    <Content Include="SourceHtmlFiles\it100.txt" />
+    <Content Include="SourceHtmlFiles\it101.txt" />
+    <Content Include="SourceHtmlFiles\it102.txt" />
+    <Content Include="SourceHtmlFiles\it11.txt" />
+    <Content Include="SourceHtmlFiles\it12.txt" />
+    <Content Include="SourceHtmlFiles\it13.txt" />
+    <Content Include="SourceHtmlFiles\it14.txt" />
+    <Content Include="SourceHtmlFiles\it15.txt" />
+    <Content Include="SourceHtmlFiles\it16.txt" />
+    <Content Include="SourceHtmlFiles\it17.txt" />
+    <Content Include="SourceHtmlFiles\it18.txt" />
+    <Content Include="SourceHtmlFiles\it19.txt" />
+    <Content Include="SourceHtmlFiles\it2.txt" />
+    <Content Include="SourceHtmlFiles\it20.txt" />
+    <Content Include="SourceHtmlFiles\it21.txt" />
+    <Content Include="SourceHtmlFiles\it22.txt" />
+    <Content Include="SourceHtmlFiles\it23.txt" />
+    <Content Include="SourceHtmlFiles\it24.txt" />
+    <Content Include="SourceHtmlFiles\it25.txt" />
+    <Content Include="SourceHtmlFiles\it26.txt" />
+    <Content Include="SourceHtmlFiles\it27.txt" />
+    <Content Include="SourceHtmlFiles\it28.txt" />
+    <Content Include="SourceHtmlFiles\it29.txt" />
+    <Content Include="SourceHtmlFiles\it3.txt" />
+    <Content Include="SourceHtmlFiles\it30.txt" />
+    <Content Include="SourceHtmlFiles\it31.txt" />
+    <Content Include="SourceHtmlFiles\it32.txt" />
+    <Content Include="SourceHtmlFiles\it33.txt" />
+    <Content Include="SourceHtmlFiles\it34.txt" />
+    <Content Include="SourceHtmlFiles\it35.txt" />
+    <Content Include="SourceHtmlFiles\it36.txt" />
+    <Content Include="SourceHtmlFiles\it37.txt" />
+    <Content Include="SourceHtmlFiles\it38.txt" />
+    <Content Include="SourceHtmlFiles\it39.txt" />
+    <Content Include="SourceHtmlFiles\it4.txt" />
+    <Content Include="SourceHtmlFiles\it40.txt" />
+    <Content Include="SourceHtmlFiles\it41.txt" />
+    <Content Include="SourceHtmlFiles\it42.txt" />
+    <Content Include="SourceHtmlFiles\it43.txt" />
+    <Content Include="SourceHtmlFiles\it44.txt" />
+    <Content Include="SourceHtmlFiles\it45.txt" />
+    <Content Include="SourceHtmlFiles\it46.txt" />
+    <Content Include="SourceHtmlFiles\it47.txt" />
+    <Content Include="SourceHtmlFiles\it48.txt" />
+    <Content Include="SourceHtmlFiles\it49.txt" />
+    <Content Include="SourceHtmlFiles\it5.txt" />
+    <Content Include="SourceHtmlFiles\it50.txt" />
+    <Content Include="SourceHtmlFiles\it51.txt" />
+    <Content Include="SourceHtmlFiles\it52.txt" />
+    <Content Include="SourceHtmlFiles\it53.txt" />
+    <Content Include="SourceHtmlFiles\it54.txt" />
+    <Content Include="SourceHtmlFiles\it55.txt" />
+    <Content Include="SourceHtmlFiles\it56.txt" />
+    <Content Include="SourceHtmlFiles\it57.txt" />
+    <Content Include="SourceHtmlFiles\it58.txt" />
+    <Content Include="SourceHtmlFiles\it59.txt" />
+    <Content Include="SourceHtmlFiles\it6.txt" />
+    <Content Include="SourceHtmlFiles\it60.txt" />
+    <Content Include="SourceHtmlFiles\it61.txt" />
+    <Content Include="SourceHtmlFiles\it62.txt" />
+    <Content Include="SourceHtmlFiles\it63.txt" />
+    <Content Include="SourceHtmlFiles\it64.txt" />
+    <Content Include="SourceHtmlFiles\it65.txt" />
+    <Content Include="SourceHtmlFiles\it66.txt" />
+    <Content Include="SourceHtmlFiles\it67.txt" />
+    <Content Include="SourceHtmlFiles\it68.txt" />
+    <Content Include="SourceHtmlFiles\it69.txt" />
+    <Content Include="SourceHtmlFiles\it7.txt" />
+    <Content Include="SourceHtmlFiles\it70.txt" />
+    <Content Include="SourceHtmlFiles\it71.txt" />
+    <Content Include="SourceHtmlFiles\it72.txt" />
+    <Content Include="SourceHtmlFiles\it73.txt" />
+    <Content Include="SourceHtmlFiles\it74.txt" />
+    <Content Include="SourceHtmlFiles\it75.txt" />
+    <Content Include="SourceHtmlFiles\it76.txt" />
+    <Content Include="SourceHtmlFiles\it77.txt" />
+    <Content Include="SourceHtmlFiles\it78.txt" />
+    <Content Include="SourceHtmlFiles\it79.txt" />
+    <Content Include="SourceHtmlFiles\it8.txt" />
+    <Content Include="SourceHtmlFiles\it80.txt" />
+    <Content Include="SourceHtmlFiles\it81.txt" />
+    <Content Include="SourceHtmlFiles\it82.txt" />
+    <Content Include="SourceHtmlFiles\it83.txt" />
+    <Content Include="SourceHtmlFiles\it84.txt" />
+    <Content Include="SourceHtmlFiles\it85.txt" />
+    <Content Include="SourceHtmlFiles\it86.txt" />
+    <Content Include="SourceHtmlFiles\it87.txt" />
+    <Content Include="SourceHtmlFiles\it88.txt" />
+    <Content Include="SourceHtmlFiles\it89.txt" />
+    <Content Include="SourceHtmlFiles\it9.txt" />
+    <Content Include="SourceHtmlFiles\it90.txt" />
+    <Content Include="SourceHtmlFiles\it91.txt" />
+    <Content Include="SourceHtmlFiles\it92.txt" />
+    <Content Include="SourceHtmlFiles\it93.txt" />
+    <Content Include="SourceHtmlFiles\it94.txt" />
+    <Content Include="SourceHtmlFiles\it95.txt" />
+    <Content Include="SourceHtmlFiles\it96.txt" />
+    <Content Include="SourceHtmlFiles\it97.txt" />
+    <Content Include="SourceHtmlFiles\it98.txt" />
+    <Content Include="SourceHtmlFiles\it99.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
