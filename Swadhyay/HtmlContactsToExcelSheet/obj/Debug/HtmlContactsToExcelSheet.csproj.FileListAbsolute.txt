@@ -9,3 +9,6 @@ C:\Users\v-hijos\Desktop\Development\Learn\Swadhyay\HtmlContactsToExcelSheet\bin
 C:\Users\v-hijos\Desktop\Development\Learn\Swadhyay\HtmlContactsToExcelSheet\bin\Debug\HtmlAgilityPack.xml
 C:\Users\v-hijos\Desktop\Development\Learn\Swadhyay\HtmlContactsToExcelSheet\bin\Debug\EPPlus.dll
 C:\Users\v-hijos\Desktop\Development\Learn\Swadhyay\HtmlContactsToExcelSheet\bin\Debug\EPPlus.xml
+C:\Users\v-hijos\Desktop\Development\Learn\helloworld\Swadhyay\HtmlContactsToExcelSheet\bin\Debug\HtmlContactsToExcelSheet.exe.config
+C:\Users\v-hijos\Desktop\Development\Learn\helloworld\Swadhyay\HtmlContactsToExcelSheet\obj\Debug\HtmlContactsToExcelSheet.exe
+C:\Users\v-hijos\Desktop\Development\Learn\helloworld\Swadhyay\HtmlContactsToExcelSheet\obj\Debug\HtmlContactsToExcelSheet.pdb
